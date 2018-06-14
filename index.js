@@ -52,7 +52,7 @@ function decideMessage(sender, text1) {
 	if (text.includes("Auction")) {
 		sendImageMessage(sender)
 	} else if (text.includes("Pinnacle")) {
-
+		sendGenericMessage(sender)
 	} else { 
 		sendText(sender, "We're working hard to bring back Sunday auctions from new companies :)")
 		sendButtonMessage(sender,"What do you wanna know? :)" )
@@ -130,6 +130,8 @@ function sendImageMessage(sender, text, ImageURL) {
  					}
  			}
  		}
+
+ 		sendRequest(sender, messageData)
 
 function sendRequest(sender, messageData)
 request({
