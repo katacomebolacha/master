@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 // ROUTES
 
 app.get('/', function(req, res) {
-	res.send("2010124714")
+	res.send("1618264526")
 })
 
 let token = ""
