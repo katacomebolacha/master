@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 // ROUTES
 
 app.get('/', function(req, res) {
-	res.send("EAAdV7pCdAsYBAHX9Jmoqvi5VVZCaKq4g7ohJnpFb1njThgvo8KTepUQsUZBqHEd0hT2SZAgdeSEGmmXqrwZB2EQYRQFKczl2cL5Ds61zIwq9iZCHKk70APh5ZC8LelQ1XB5F4ANQ9iqlGqjVrkEsjUFJPQSAB7cAVoC9vvbHBtdgZDZD")
+	res.send("Hi I am a chatbot")
 })
 
 let token = ""
@@ -23,7 +23,7 @@ let token = ""
 // Facebook 
 
 app.get('/webhook/', function(req, res) {
-	if (req.query['hub.verify_token'] === "thebigflea") {
+	if (req.query['hub.verify_token'] === "fuckthis") {
 		res.send(req.query['hub.challenge'])
 	}
 	res.send("Wrong token")
