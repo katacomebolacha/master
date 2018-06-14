@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 // ROUTES
 
 app.get('/', function(req, res) {
-	res.send("1618264526")
+	res.send("EAAdV7pCdAsYBAHX9Jmoqvi5VVZCaKq4g7ohJnpFb1njThgvo8KTepUQsUZBqHEd0hT2SZAgdeSEGmmXqrwZB2EQYRQFKczl2cL5Ds61zIwq9iZCHKk70APh5ZC8LelQ1XB5F4ANQ9iqlGqjVrkEsjUFJPQSAB7cAVoC9vvbHBtdgZDZD")
 })
 
 let token = ""
