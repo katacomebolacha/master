@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 // ROUTES
 
 app.get('/', function(req, res) {
-	res.send("Hi I am a chatbot")
+	res.send("1983193668")
 })
 
 let token = ""
@@ -23,7 +23,7 @@ let token = ""
 // Facebook 
 
 app.get('/webhook/', function(req, res) {
-	if (req.query['hub.verify_token'] === "blondiebytes") {
+	if (req.query['hub.verify_token'] === "thebigflea") {
 		res.send(req.query['hub.challenge'])
 	}
 	res.send("Wrong token")
